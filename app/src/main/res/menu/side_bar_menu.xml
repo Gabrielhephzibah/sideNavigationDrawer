@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_new_icon"
+        android:title="Home"/>
+
+    <item android:id="@+id/setting"
+        android:icon="@drawable/ic_folder_shared_black"
+        android:title="Setting"/>
+
+    <item android:id="@+id/time_out"
+        android:iconTint="@color/colorAccent"
+
+        app:showAsAction="always"
+        android:title="Time out"
+        tools:targetApi="o" />
+
+</menu>
